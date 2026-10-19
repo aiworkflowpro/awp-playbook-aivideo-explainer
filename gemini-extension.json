@@ -1,0 +1,6 @@
+{
+  "name": "explainer-video",
+  "description": "Explainer video Skill for AI agents: make long videos that hold up past the first minute. Eight steps, from preflight to retrospective.",
+  "version": "1.0.0",
+  "contextFileName": "GEMINI.md"
+}

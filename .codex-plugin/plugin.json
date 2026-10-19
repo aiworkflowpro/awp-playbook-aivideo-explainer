@@ -1,0 +1,38 @@
+{
+  "name": "explainer-video",
+  "version": "1.0.0",
+  "description": "Explainer video Skill for AI agents: make long videos that hold up past the first minute. Eight steps, from preflight to retrospective.",
+  "author": {
+    "name": "AI Workflow Pro",
+    "url": "https://github.com/aiworkflowpro"
+  },
+  "homepage": "https://github.com/aiworkflowpro/awp-playbook-aivideo-explainer",
+  "repository": "https://github.com/aiworkflowpro/awp-playbook-aivideo-explainer",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "explainer-video",
+    "video-production",
+    "remotion",
+    "motion-graphics",
+    "sub-agents"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Explainer Video",
+    "shortDescription": "Long explainer videos that hold up past the first minute",
+    "longDescription": "Eight steps for making a long explainer video with an agent: check the tools, interview for the format and the feel, lock the narration and one look, delegate each segment to a fresh sub-agent with a framework rather than constraints, watch the first cut like a viewer, polish it in a new session, and fine-tune the Skill with what the film taught. Remotion and FFmpeg, running locally.",
+    "developerName": "AI Workflow Pro",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use the explainer-video skill to make a video from my script.",
+      "Run the explainer-video preflight."
+    ],
+    "websiteURL": "https://github.com/aiworkflowpro/awp-playbook-aivideo-explainer"
+  }
+}

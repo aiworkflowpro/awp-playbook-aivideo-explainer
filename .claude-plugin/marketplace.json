@@ -1,0 +1,20 @@
+{
+  "name": "awp-playbook-aivideo-explainer",
+  "description": "Explainer video Skill for AI agents: make long videos that hold up past the first minute.",
+  "owner": {
+    "name": "AI Workflow Pro",
+    "url": "https://github.com/aiworkflowpro"
+  },
+  "plugins": [
+    {
+      "name": "explainer-video",
+      "description": "Make long explainer videos with your agent in eight steps: lock the narration and one look, delegate each segment to a fresh sub-agent, watch the cut like a viewer, polish it in a fresh session, and fine-tune the Skill in a retrospective. Remotion + FFmpeg, runs locally.",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "AI Workflow Pro",
+        "url": "https://github.com/aiworkflowpro"
+      }
+    }
+  ]
+}

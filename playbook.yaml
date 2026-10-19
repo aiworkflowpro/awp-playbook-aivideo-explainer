@@ -1,0 +1,56 @@
+# Machine-readable metadata for this companion repo.
+# The README "Video -> repo" table, the series course list and the profile
+# directory are generated from this file; edit here first.
+#
+version: "1.0.0"
+series: aivideo
+topic: explainer                          # {series}-{topic} is this repo's id; repos have no order
+series_title: "Make Videos with AI Agents"
+playlist: null
+type: P
+title: "How to Edit Long Videos With Claude Code (10 Sub-Agents)"   # as published; the video link is the stable reference
+video:
+  id: je8u-utnb5s
+  url: https://www.youtube.com/watch?v=je8u-utnb5s
+  published: 2026-10-19
+  duration: "28:45"
+  tag: video-aivideo-explainer
+release: v1.0.0
+article: https://aiworkflowpro.com/awp-video-editing-skill-guide/
+homepage: https://aiworkflowpro.com/awp-video-editing-skill-guide/
+skill: skills/explainer-video/SKILL.md
+tested_with:
+  - { agent: "Claude Code", model: "Claude Opus 5.5", date: 2026-10, scope: "the method behind this Skill, on the film in the video" }
+  - { agent: "Claude Code 2.1.302", model: "Claude Opus 5.5", date: 2026-10-17, scope: "scripts on macOS, Python 3.14: preflight.py and --help on every script; not run end to end on a new film" }
+chapters:                                 # film time = published time (c03r02)
+  - { t: "0:00", title: "A 30-minute video, edited by AI", path: README.md#why-an-explainer-video-skill }
+  - { t: "0:32", title: "Why editing is hard: too many choices", path: README.md#why-an-explainer-video-skill }
+  - { t: "1:23", title: "How AI edits: code, not timelines", path: template/README.md }
+  - { t: "3:33", title: "Why one prompt can't edit a long video", path: skills/explainer-video/steps/05-delegate.md }
+  - { t: "4:45", title: "Three layers and the four unknowns", path: skills/explainer-video/SKILL.md }
+  - { t: "6:41", title: "The four quadrants", path: README.md#the-four-unknowns }
+  - { t: "9:31", title: "Known knowns: the 8-step Skill", path: skills/explainer-video/SKILL.md }
+  - { t: "10:25", title: "Step 1: Preflight", path: skills/explainer-video/steps/01-preflight.md }
+  - { t: "11:40", title: "Step 2: Kickoff", path: skills/explainer-video/steps/02-kickoff.md }
+  - { t: "12:11", title: "Step 3: Narration & segments", path: skills/explainer-video/steps/03-narration-and-segments.md }
+  - { t: "13:45", title: "Step 4: Lock the look", path: skills/explainer-video/steps/04-lock-the-look.md }
+  - { t: "14:30", title: "Step 5: Sub-agents in 3-minute chunks", path: skills/explainer-video/steps/05-delegate.md }
+  - { t: "15:58", title: "Steps 6 and 7: First cut, Polish & deliver", path: skills/explainer-video/steps/06-first-cut.md }
+  - { t: "16:17", title: "Step 8: Retrospective", path: skills/explainer-video/steps/08-retrospective.md }
+  - { t: "18:09", title: "Known unknowns: task cards & references", path: skills/explainer-video/templates/segment-brief.md }
+  - { t: "21:09", title: "Unknown knowns: the scoring trap", path: skills/explainer-video/references/review.md }
+  - { t: "23:27", title: "Unknown unknowns: outside expertise", path: skills/explainer-video/steps/08-retrospective.md }
+  - { t: "25:37", title: "Bonus: effort levels & the polish pass", path: skills/explainer-video/steps/07-polish-and-deliver.md }
+  - { t: "26:59", title: "Recap + get the free Skill", path: skills/explainer-video/prompts/start-a-film.md }
+topics:
+  - ai-workflow-pro
+  - ai-video
+  - claude-code
+  - agent-skills
+  - claude-skills
+  - explainer-video
+  - remotion
+  - motion-graphics
+  - video-production
+  - ai-agents
+description: "Explainer video Skill for AI agents: make long videos that hold up past the first minute. Claude Code, Codex, Cursor."

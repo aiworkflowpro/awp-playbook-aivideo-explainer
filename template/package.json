@@ -1,0 +1,27 @@
+{
+  "name": "explainer-film",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal Remotion starter for an explainer film: words.json clock, self-registering segments, a thin shared layer.",
+  "license": "MIT",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "still": "remotion still src/index.ts s01 out/s01.png --frame=150",
+    "render": "remotion render src/index.ts Film out/film.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.532",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.532"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/webpack-env": "1.18.8",
+    "typescript": "^5.9.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

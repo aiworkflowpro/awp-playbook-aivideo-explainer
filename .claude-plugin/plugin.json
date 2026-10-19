@@ -1,0 +1,20 @@
+{
+  "name": "explainer-video",
+  "description": "Explainer video Skill for AI agents: make long videos that hold up past the first minute. Eight steps, from preflight to retrospective.",
+  "version": "1.0.0",
+  "author": {
+    "name": "AI Workflow Pro",
+    "url": "https://github.com/aiworkflowpro"
+  },
+  "homepage": "https://github.com/aiworkflowpro/awp-playbook-aivideo-explainer",
+  "repository": "https://github.com/aiworkflowpro/awp-playbook-aivideo-explainer",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "explainer-video",
+    "video-production",
+    "remotion",
+    "motion-graphics",
+    "sub-agents"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+ "source": "sample (no audio)",
+ "duration": 5.0,
+ "words": [
+  {"text": "Known", "start": 0.20, "end": 0.42},
+  {"text": "knowns.", "start": 0.42, "end": 0.70},
+  {"text": "Known", "start": 0.80, "end": 1.02},
+  {"text": "unknowns.", "start": 1.02, "end": 1.38},
+  {"text": "Unknown", "start": 1.50, "end": 1.78},
+  {"text": "knowns.", "start": 1.78, "end": 2.06},
+  {"text": "Unknown", "start": 2.16, "end": 2.44},
+  {"text": "unknowns.", "start": 2.44, "end": 2.86},
+  {"text": "Eight", "start": 3.10, "end": 3.30},
+  {"text": "steps", "start": 3.30, "end": 3.62},
+  {"text": "that", "start": 3.62, "end": 3.76},
+  {"text": "keep", "start": 3.76, "end": 3.96},
+  {"text": "a", "start": 3.96, "end": 4.02},
+  {"text": "long", "start": 4.02, "end": 4.24},
+  {"text": "video", "start": 4.24, "end": 4.50},
+  {"text": "together.", "start": 4.50, "end": 4.92}
+ ]
+}
